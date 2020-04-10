@@ -1,0 +1,27 @@
+
+#formcontainer {
+    margin-top: 15%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contactform {
+
+}
+
+label, input, textarea {
+    display:block;
+    margin-top: 15px;
+}
+
+textarea, input {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+textarea {
+
+}
