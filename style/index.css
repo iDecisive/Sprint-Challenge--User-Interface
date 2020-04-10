@@ -182,6 +182,48 @@ div {
     width: 100%;
 }
 
+/* Box colors */
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
 
 /* Breakpoints */
 
@@ -224,10 +266,6 @@ div {
         font-weight: bold;
     }
 
-    /* #topaboutbtn, #topproductsbtn, #topblogbtn, #topcontactbtn {
-        color: rgb(163, 163, 163);
-    } */
-
     section.top-content {
         display:flex;
         flex-direction: column;
@@ -236,6 +274,25 @@ div {
 
     section.top-content div.text-container {
         width: 80%;
+    }
+
+    section.top-content div.text-container h2{
+        font-weight: bold;
+    }
+
+    .middle-content {
+        padding-top: 5%;
+        text-align: center;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 25% !important;
     }
 
     section.bottom-content,footer {
